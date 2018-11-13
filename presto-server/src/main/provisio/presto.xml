@@ -116,6 +116,12 @@
         </artifact>
     </artifactSet>
 
+    <artifactSet to="plugin/qserv">
+        <artifact id="${project.groupId}:presto-qserv:zip:${project.version}">
+            <unpack />
+        </artifact>
+    </artifactSet>
+
     <artifactSet to="plugin/postgresql">
         <artifact id="${project.groupId}:presto-postgresql:zip:${project.version}">
             <unpack />
