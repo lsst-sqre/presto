@@ -61,7 +61,7 @@ public class QServClient
             throws SQLException
     {
         Properties connectionProperties = basicConnectionProperties(config);
-        connectionProperties.setProperty("useInformationSchema", "true");
+        connectionProperties.setProperty("useInformationSchema", "false");
         connectionProperties.setProperty("nullCatalogMeansCurrent", "false");
         connectionProperties.setProperty("useUnicode", "true");
         connectionProperties.setProperty("characterEncoding", "utf8");
